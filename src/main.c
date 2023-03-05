@@ -26,28 +26,11 @@ void main(void);                                                   //COMPULSORY
 
 void main(void)
 {
-		my_age.day = 26;
-		my_age.month = 02;
-		my_age.year = 2002;
-		my_age.age = 21;
-
-		init_LCD();
-
-		int count = 0;
-
+		
 	while(1)
 	{
 
-		char output[3];
-		sprintf(output, "%d", count);
-		lcd_putstring(output);
-		delay(150);
-		count++;
-		lcd_command(CLEAR);
-
-		if(count >my_age.age){
-			count = 0;
-		}
+		
 
 
 	}
